@@ -1,15 +1,31 @@
 {
-  "version": "4.3.0",
+  "version": "4.4.0",
   "date": "2026-09-17",
-  "download": "https://github.com/Kimchour/IG-ratio/raw/main/ig-ratio-4.3.0.zip",
+  "download": "https://github.com/Kimchour/IG-ratio/raw/main/ig-ratio-4.4.0.zip",
   "added": [
-    "Send a post straight into a Claude chat — image and caption together",
-    "Arrows on the image for stepping through carousel slides",
-    "Check for updates, with the changelog for every release"
+    "Pick which Claude chat a post goes to, by chat name",
+    "Remember a chat so it stops asking, and forget it from the update window",
+    "Changelog window showing exactly what each release changed",
+    "Sound effects for finished jobs, with an off switch"
   ],
   "fixed": [
-    "Carousel posts only ever kept their first slide",
-    "Controls sat over the username on the feed instead of in the header"
+    "Update notice repeated the changelog instead of linking to it",
+    "Panel hid empty sections behind a stray divider line"
   ],
-  "history": []
+  "history": [
+    {
+      "version": "4.3.0",
+      "date": "2026-09-17",
+      "added": [
+        "Send a post straight into a Claude chat \u2014 image and caption together",
+        "Arrows on the image for stepping through carousel slides",
+        "Check for updates, with the changelog for every release"
+      ],
+      "fixed": [
+        "Carousel posts only ever kept their first slide",
+        "Controls sat over the username on the feed instead of in the header"
+      ],
+      "notes": ""
+    }
+  ]
 }
