@@ -2,5 +2,14 @@
   "version": "4.3.0",
   "date": "2026-09-17",
   "download": "https://github.com/Kimchour/IG-ratio/raw/main/ig-ratio-4.3.0.zip",
-  "notes": "Send a post straight to Claude, carousel slide arrows, and an update checker."
+  "added": [
+    "Send a post straight into a Claude chat — image and caption together",
+    "Arrows on the image for stepping through carousel slides",
+    "Check for updates, with the changelog for every release"
+  ],
+  "fixed": [
+    "Carousel posts only ever kept their first slide",
+    "Controls sat over the username on the feed instead of in the header"
+  ],
+  "history": []
 }
