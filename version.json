@@ -1,16 +1,31 @@
 {
   "version": "4.4.1",
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "download": "https://github.com/Kimchour/IG-ratio/raw/main/ig-ratio-4.4.1.zip",
   "added": [
-    "Pick which Claude chat a post goes to, by chat name",
-    "Remember a chat, and forget it again from the update window"
+    "Choose where a post goes: any open Claude or ChatGPT chat, listed by name",
+    "ChatGPT support alongside Claude",
+    "Always send to one chat, and clear that from the update window"
   ],
   "fixed": [
+    "Chat picker only appeared with two or more tabs open, so most people never saw it",
     "Update button led to a 404 when the release zip was missing or renamed",
     "New signing key \u2014 the previous one was exposed and no longer works"
   ],
   "history": [
+    {
+      "version": "4.4.1",
+      "date": "2026-09-17",
+      "added": [
+        "Pick which Claude chat a post goes to, by chat name",
+        "Remember a chat, and forget it again from the update window"
+      ],
+      "fixed": [
+        "Update button led to a 404 when the release zip was missing or renamed",
+        "New signing key \u2014 the previous one was exposed and no longer works"
+      ],
+      "notes": ""
+    },
     {
       "version": "4.4.0",
       "date": "2026-09-17",
