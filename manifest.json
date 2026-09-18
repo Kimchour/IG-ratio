@@ -1,0 +1,58 @@
+{
+  "manifest_version": 3,
+  "name": "IG Ratio",
+  "version": "4.4.1",
+  "description": "Ranks Instagram posts by engagement, downloads them, and sends a post into a Claude or ChatGPT chat.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.instagram.com/*"
+      ],
+      "js": [
+        "net.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": [
+        "https://www.instagram.com/*"
+      ],
+      "js": [
+        "zip.js",
+        "sound.js",
+        "license.js",
+        "content.js"
+      ],
+      "css": [
+        "ui.css"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://claude.ai/*",
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "chat.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.instagram.com/*",
+    "https://claude.ai/*",
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*",
+    "https://raw.githubusercontent.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "homepage_url": "https://github.com/Kimchour/IG-ratio"
+}
