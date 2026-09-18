@@ -1,26 +1,23 @@
 {
-  "version": "4.4.1",
+  "version": "4.4.2",
   "date": "2026-09-18",
-  "download": "https://github.com/Kimchour/IG-ratio/raw/main/ig-ratio-4.4.1.zip",
-  "added": [
-    "Choose where a post goes: any open Claude or ChatGPT chat, listed by name",
-    "ChatGPT support alongside Claude",
-    "Always send to one chat, and clear that from the update window"
-  ],
+  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio-4.4.2.zip",
+  "added": [],
   "fixed": [
-    "Chat picker only appeared with two or more tabs open, so most people never saw it",
-    "Update button led to a 404 when the release zip was missing or renamed",
-    "New signing key \u2014 the previous one was exposed and no longer works"
+    "Update check was blocked by CORS \u2014 it asked github.com, which the extension has no permission for",
+    "Release links now point at raw.githubusercontent.com, the host the extension can actually reach"
   ],
   "history": [
     {
       "version": "4.4.1",
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "added": [
-        "Pick which Claude chat a post goes to, by chat name",
-        "Remember a chat, and forget it again from the update window"
+        "Choose where a post goes: any open Claude or ChatGPT chat, listed by name",
+        "ChatGPT support alongside Claude",
+        "Always send to one chat, and clear that from the update window"
       ],
       "fixed": [
+        "Chat picker only appeared with two or more tabs open, so most people never saw it",
         "Update button led to a 404 when the release zip was missing or renamed",
         "New signing key \u2014 the previous one was exposed and no longer works"
       ],
