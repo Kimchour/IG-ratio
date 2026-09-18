@@ -1,18 +1,31 @@
 {
-  "version": "4.4.0",
+  "version": "4.4.1",
   "date": "2026-09-17",
-  "download": "https://github.com/Kimchour/IG-ratio/raw/main/ig-ratio-4.4.0.zip",
+  "download": "https://github.com/Kimchour/IG-ratio/raw/main/ig-ratio-4.4.1.zip",
   "added": [
     "Pick which Claude chat a post goes to, by chat name",
-    "Remember a chat so it stops asking, and forget it from the update window",
-    "Changelog window showing exactly what each release changed",
-    "Sound effects for finished jobs, with an off switch"
+    "Remember a chat, and forget it again from the update window"
   ],
   "fixed": [
-    "Update notice repeated the changelog instead of linking to it",
-    "Panel hid empty sections behind a stray divider line"
+    "Update button led to a 404 when the release zip was missing or renamed",
+    "New signing key \u2014 the previous one was exposed and no longer works"
   ],
   "history": [
+    {
+      "version": "4.4.0",
+      "date": "2026-09-17",
+      "added": [
+        "Pick which Claude chat a post goes to, by chat name",
+        "Remember a chat so it stops asking, and forget it from the update window",
+        "Changelog window showing exactly what each release changed",
+        "Sound effects for finished jobs, with an off switch"
+      ],
+      "fixed": [
+        "Update notice repeated the changelog instead of linking to it",
+        "Panel hid empty sections behind a stray divider line"
+      ],
+      "notes": ""
+    },
     {
       "version": "4.3.0",
       "date": "2026-09-17",
