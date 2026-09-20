@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "IG Ratio",
-  "version": "4.4.2",
+  "version": "4.4.3",
   "description": "Ranks Instagram posts by engagement, downloads them, and sends a post into a Claude or ChatGPT chat.",
   "content_scripts": [
     {

@@ -1,13 +1,25 @@
 {
-  "version": "4.4.2",
-  "date": "2026-09-18",
-  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio-4.4.2.zip",
-  "added": [],
+  "version": "4.4.3",
+  "date": "2026-09-20",
+  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio-4.4.3.zip",
+  "added": [
+    "Neutral monochrome colours, so nothing competes with Instagram's own interface"
+  ],
   "fixed": [
-    "Update check was blocked by CORS \u2014 it asked github.com, which the extension has no permission for",
-    "Release links now point at raw.githubusercontent.com, the host the extension can actually reach"
+    "Hover controls sat on top of the avatar and username instead of at the right of the header",
+    "Controls now shrink to an icon when a header is too narrow for the label"
   ],
   "history": [
+    {
+      "version": "4.4.2",
+      "date": "2026-09-18",
+      "added": [],
+      "fixed": [
+        "Update check was blocked by CORS \u2014 it asked github.com, which the extension has no permission for",
+        "Release links now point at raw.githubusercontent.com, the host the extension can actually reach"
+      ],
+      "notes": ""
+    },
     {
       "version": "4.4.1",
       "date": "2026-09-18",
