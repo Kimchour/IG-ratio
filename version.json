@@ -1,15 +1,27 @@
 {
-  "version": "4.4.3",
+  "version": "4.4.4",
   "date": "2026-09-20",
-  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio-4.4.3.zip",
+  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio-4.4.4.zip",
   "added": [
-    "Neutral monochrome colours, so nothing competes with Instagram's own interface"
+    "Indigo accent back \u2014 clean and neutral against Instagram without going colourless"
   ],
   "fixed": [
-    "Hover controls sat on top of the avatar and username instead of at the right of the header",
-    "Controls now shrink to an icon when a header is too narrow for the label"
+    "Hover controls landed on the avatar and username, or didn't show at all",
+    "Position is now measured from the post each time instead of guessed from the markup"
   ],
   "history": [
+    {
+      "version": "4.4.3",
+      "date": "2026-09-20",
+      "added": [
+        "Neutral monochrome colours, so nothing competes with Instagram's own interface"
+      ],
+      "fixed": [
+        "Hover controls sat on top of the avatar and username instead of at the right of the header",
+        "Controls now shrink to an icon when a header is too narrow for the label"
+      ],
+      "notes": ""
+    },
     {
       "version": "4.4.2",
       "date": "2026-09-18",
