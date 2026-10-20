@@ -1,15 +1,35 @@
 {
-  "version": "4.4.4",
-  "date": "2026-09-20",
-  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio-4.4.4.zip",
+  "version": "4.5.0",
+  "date": "2026-10-20",
+  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio-4.5.0.zip",
   "added": [
-    "Indigo accent back \u2014 clean and neutral against Instagram without going colourless"
+    "A redesigned interface \u2014 calmer surfaces, one type family, and figures that line up down the column",
+    "A ranking meter under each post, showing its share of the best one",
+    "Smoother motion throughout: rows glide to their new place on a re-sort, meters ease to their new length, dialogs settle in",
+    "Thumbnails mark reels and carousels with a small glyph instead of a label",
+    "The status line shows when something is running, with progress only while it is"
   ],
   "fixed": [
-    "Hover controls landed on the avatar and username, or didn't show at all",
-    "Position is now measured from the post each time instead of guessed from the markup"
+    "The update notice vanished when the panel was reopened, until the next check twelve hours later",
+    "Escape closed the post behind the chat picker instead of the picker, and arrow keys flipped that post",
+    "The list replayed its entrance animation every time anything in it changed",
+    "The preview restarted its video and flashed the image when a caption arrived",
+    "Closed dialogs could still be reached with the Tab key",
+    "Before anything was read, the sort note claimed the posts had no view counts"
   ],
   "history": [
+    {
+      "version": "4.4.4",
+      "date": "2026-09-20",
+      "added": [
+        "Indigo accent back \u2014 clean and neutral against Instagram without going colourless"
+      ],
+      "fixed": [
+        "Hover controls landed on the avatar and username, or didn't show at all",
+        "Position is now measured from the post each time instead of guessed from the markup"
+      ],
+      "notes": ""
+    },
     {
       "version": "4.4.3",
       "date": "2026-09-20",
