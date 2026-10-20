@@ -1,24 +1,45 @@
 {
-  "version": "4.6.0",
+  "version": "4.7.0",
   "date": "2026-10-20",
-  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio.zip?v=4.6.0",
+  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio.zip?v=4.7.0",
   "added": [
-    "Tooltips on every icon, which also say what a click did \u2014 Saved, Sent, Couldn't send",
-    "A placeholder table with a live count while the grid is being read",
-    "An Over time strip in the summary: each post's figure in the order it went up \u2014 point at a bar to read it",
-    "Summary figures count up to their values, and the strip reshapes in place when you switch between likes and views",
-    "The profile's own picture beside its name at the top of the panel",
-    "On the feed, the controls move onto the photo's corner when a post's header has no room for them"
+    "A new post viewer: the picture on the left over a soft blur of itself, the details on the right with room for the whole caption",
+    "The picture flies in from its thumbnail when you open it, and back again when you close",
+    "Posts slide across as you step through them, and their figures count up",
+    "Send to chat is the main action, with Copy as one menu \u2014 image, caption or both \u2014 beside Download and Open",
+    "Arrows for the next and previous post sit outside the viewer, and only when there is one"
   ],
   "fixed": [
-    "In light mode on Instagram's dark theme, the panel's titles came out white on white",
-    "The controls on feed posts covered the username \u2014 the avatar was being taken for the name",
-    "The Keep button's + and \u2713 sat off-centre; they're proper icons now",
-    "The launcher and kept counter covered Instagram's Messages button in the corner",
-    "The panel kept showing the first profile's name after moving to another one",
-    "The list said Press Read grid the whole time it was reading"
+    "The caption in the preview was squeezed to one cut-off line with scroll arrows",
+    "A single post from the feed showed arrows and a 1 / 1 counter that did nothing",
+    "Scrolling over the preview scrolled Instagram's feed behind it",
+    "Instagram's own videos kept playing, and talking, under the preview",
+    "Closing the preview blanked the picture before the window had faded",
+    "New posts on the feed could wait a long time for their controls while the page was busy",
+    "Less work on Instagram's main thread while you browse \u2014 fewer forced style recalculations"
   ],
   "history": [
+    {
+      "version": "4.6.0",
+      "date": "2026-10-20",
+      "added": [
+        "Tooltips on every icon, which also say what a click did \u2014 Saved, Sent, Couldn't send",
+        "A placeholder table with a live count while the grid is being read",
+        "An Over time strip in the summary: each post's figure in the order it went up \u2014 point at a bar to read it",
+        "Summary figures count up to their values, and the strip reshapes in place when you switch between likes and views",
+        "The profile's own picture beside its name at the top of the panel",
+        "On the feed, the controls move onto the photo's corner when a post's header has no room for them"
+      ],
+      "fixed": [
+        "In light mode on Instagram's dark theme, the panel's titles came out white on white",
+        "The controls on feed posts covered the username \u2014 the avatar was being taken for the name",
+        "The Keep button's + and \u2713 sat off-centre; they're proper icons now",
+        "The launcher and kept counter covered Instagram's Messages button in the corner",
+        "The panel kept showing the first profile's name after moving to another one",
+        "The list said Press Read grid the whole time it was reading"
+      ],
+      "notes": ""
+    },
     {
       "version": "4.5.0",
       "date": "2026-10-20",
