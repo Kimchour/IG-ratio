@@ -1,23 +1,44 @@
 {
-  "version": "4.5.0",
+  "version": "4.6.0",
   "date": "2026-10-20",
-  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio-4.5.0.zip",
+  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio-4.6.0.zip",
   "added": [
-    "A redesigned interface \u2014 calmer surfaces, one type family, and figures that line up down the column",
-    "A ranking meter under each post, showing its share of the best one",
-    "Smoother motion throughout: rows glide to their new place on a re-sort, meters ease to their new length, dialogs settle in",
-    "Thumbnails mark reels and carousels with a small glyph instead of a label",
-    "The status line shows when something is running, with progress only while it is"
+    "Tooltips on every icon, which also say what a click did \u2014 Saved, Sent, Couldn't send",
+    "A placeholder table with a live count while the grid is being read",
+    "An Over time strip in the summary: each post's figure in the order it went up \u2014 point at a bar to read it",
+    "Summary figures count up to their values, and the strip reshapes in place when you switch between likes and views",
+    "The profile's own picture beside its name at the top of the panel",
+    "On the feed, the controls move onto the photo's corner when a post's header has no room for them"
   ],
   "fixed": [
-    "The update notice vanished when the panel was reopened, until the next check twelve hours later",
-    "Escape closed the post behind the chat picker instead of the picker, and arrow keys flipped that post",
-    "The list replayed its entrance animation every time anything in it changed",
-    "The preview restarted its video and flashed the image when a caption arrived",
-    "Closed dialogs could still be reached with the Tab key",
-    "Before anything was read, the sort note claimed the posts had no view counts"
+    "In light mode on Instagram's dark theme, the panel's titles came out white on white",
+    "The controls on feed posts covered the username \u2014 the avatar was being taken for the name",
+    "The Keep button's + and \u2713 sat off-centre; they're proper icons now",
+    "The launcher and kept counter covered Instagram's Messages button in the corner",
+    "The panel kept showing the first profile's name after moving to another one",
+    "The list said Press Read grid the whole time it was reading"
   ],
   "history": [
+    {
+      "version": "4.5.0",
+      "date": "2026-10-20",
+      "added": [
+        "A redesigned interface \u2014 calmer surfaces, one type family, and figures that line up down the column",
+        "A ranking meter under each post, showing its share of the best one",
+        "Smoother motion throughout: rows glide to their new place on a re-sort, meters ease to their new length, dialogs settle in",
+        "Thumbnails mark reels and carousels with a small glyph instead of a label",
+        "The status line shows when something is running, with progress only while it is"
+      ],
+      "fixed": [
+        "The update notice vanished when the panel was reopened, until the next check twelve hours later",
+        "Escape closed the post behind the chat picker instead of the picker, and arrow keys flipped that post",
+        "The list replayed its entrance animation every time anything in it changed",
+        "The preview restarted its video and flashed the image when a caption arrived",
+        "Closed dialogs could still be reached with the Tab key",
+        "Before anything was read, the sort note claimed the posts had no view counts"
+      ],
+      "notes": ""
+    },
     {
       "version": "4.4.4",
       "date": "2026-09-20",
