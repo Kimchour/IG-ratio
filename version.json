@@ -1,7 +1,7 @@
 {
   "version": "4.6.0",
   "date": "2026-10-20",
-  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio-4.6.0.zip",
+  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio.zip?v=4.6.0",
   "added": [
     "Tooltips on every icon, which also say what a click did \u2014 Saved, Sent, Couldn't send",
     "A placeholder table with a live count while the grid is being read",
