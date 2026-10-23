@@ -1,19 +1,36 @@
 {
-  "version": "4.8.0",
-  "date": "2026-10-21",
-  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio.zip?v=4.8.0",
+  "version": "4.9.0",
+  "date": "2026-10-23",
+  "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio.zip?v=4.9.0",
   "added": [
-    "A redesigned chat picker to match the viewer: the post you're sending at the top, chats grouped into open and new",
-    "Each chat says which conversation it is \u2014 in view, when you last looked, and its address",
-    "Arrow keys move through the chats, and the one you pick is ticked before the picker closes",
-    "Every window now shares the viewer's softened background and rounded corners"
+    "Crop the photo out of a screenshot post: the viewer finds the embedded photos and collages and cuts them out on their exact edges, without the headline, names or UI",
+    "Collages stay whole, or crop them photo by photo; when several photos are found they're numbered to pick from",
+    "Circle a photo with the pointer, or use a red loop already drawn on a screenshot, and the crop snaps to that photo's own edges",
+    "Red marks baked into a screenshot are painted out of the crop; paste the clean original as well and its pixels are used instead",
+    "Send to ChatGPT: the crop goes into ChatGPT's message box with your optional prompt, and onto your clipboard as a fallback",
+    "Copy, download or open the crop, always the source's own pixels as PNG",
+    "Paste (Ctrl+V) or drop any screenshot into the viewer to crop it, or pick one with the new button in the panel"
   ],
   "fixed": [
-    "Two chats with the same name, like two Claude Code tabs, looked identical in the picker",
-    "Always send here never worked for a chat that shared its name with another tab \u2014 chats are now remembered by address",
-    "Instagram's videos kept playing behind the chat picker"
+    "A failed send could say \"Claude didn't answer\" when the chat was ChatGPT"
   ],
   "history": [
+    {
+      "version": "4.8.0",
+      "date": "2026-10-21",
+      "download": "https://raw.githubusercontent.com/Kimchour/IG-ratio/main/ig-ratio.zip?v=4.8.0",
+      "added": [
+        "A redesigned chat picker to match the viewer: the post you're sending at the top, chats grouped into open and new",
+        "Each chat says which conversation it is \u2014 in view, when you last looked, and its address",
+        "Arrow keys move through the chats, and the one you pick is ticked before the picker closes",
+        "Every window now shares the viewer's softened background and rounded corners"
+      ],
+      "fixed": [
+        "Two chats with the same name, like two Claude Code tabs, looked identical in the picker",
+        "Always send here never worked for a chat that shared its name with another tab \u2014 chats are now remembered by address",
+        "Instagram's videos kept playing behind the chat picker"
+      ]
+    },
     {
       "version": "4.7.0",
       "date": "2026-10-20",
